@@ -10,7 +10,7 @@ def shell_sort(alist):
                 alist[j-gap], alist[j] = alist[j], alist[j-gap]
                 j -= gap
 
-        gap = gap/2
+        gap = gap//2
 
 
 if __name__ == "__main__":
